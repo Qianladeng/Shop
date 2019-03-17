@@ -1,7 +1,9 @@
 <template>
   <div>
+    <mt-header fixed title="X X X X" style="margin-bottom: 40px;"></mt-header>
+
     <!--轮播图-->
-    <mt-swipe :auto="2500" >
+    <mt-swipe :auto="5000" >
       <mt-swipe-item></mt-swipe-item>
       <mt-swipe-item></mt-swipe-item>
       <mt-swipe-item></mt-swipe-item>

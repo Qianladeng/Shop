@@ -94,10 +94,7 @@
           </form>
         </div>
         <br/>
-
-        <button data-v-592a3658="" class="mui-btn mui-btn-primary mui-btn-block">确认购买</button>
-        <br/>
-        <br />
+        <button data-v-592a3658="" style="margin-bottom: 15px;" class="mui-btn mui-btn-primary mui-btn-block">确认购买</button>
       </div>
     </div>
   </div>

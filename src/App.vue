@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <!--头-->
-    <div>
-      <mt-header fixed title="X X X X"></mt-header>
-    </div>
+    <!--<div>-->
+      <!--<mt-header fixed title="X X X X"></mt-header>-->
+    <!--</div>-->
     <!--主件-->
         <!--渐入-->
     <transition>
@@ -39,7 +39,7 @@
 
 <style>
   body {
-    padding: 40px 0;
+    padding-bottom: 40px;
   }
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -62,7 +62,7 @@
   }
   .v-enter-active,
   .v-leave-active{
-    transition: all 1s;
+    /*transition: all 1s;*/
   }
 </style>
 
