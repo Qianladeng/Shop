@@ -3,7 +3,7 @@
     <mt-header fixed title="X X X X" style="margin-bottom: 40px;"></mt-header>
 
     <!--轮播图-->
-    <mt-swipe :auto="5000" >
+    <mt-swipe :auto="2000" >
       <mt-swipe-item></mt-swipe-item>
       <mt-swipe-item></mt-swipe-item>
       <mt-swipe-item></mt-swipe-item>
@@ -16,10 +16,10 @@
       <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
         <span class="mui-icon mui-icon-email"><span class="mui-badge">5</span></span>
         <div class="mui-media-body">Email</div></a></li>
-      <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+      <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/user/comment">
         <span class="mui-icon mui-icon-chatbubble"></span>
-        <div class="mui-media-body">Chat</div></a></li>
-      <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/member/location">
+        <div class="mui-media-body">Chat</div></router-link></li>
+      <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/user/location">
         <span class="mui-icon mui-icon-location"></span>
         <div class="mui-media-body">Maps</div></router-link></li>
       <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">

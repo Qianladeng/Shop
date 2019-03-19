@@ -1,7 +1,7 @@
 {
   "name": "projet",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "Vue+Mui",
   "author": "Qianladeng <340128494@qq.com>",
   "private": true,
   "scripts": {

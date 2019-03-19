@@ -6,12 +6,10 @@ import VueRouter from 'vue-router'
 import "./css/mui.min.css";
 
 Vue.use(MintUI);
+Vue.use(VueRouter);
 
 //vue-resource
 // import VueResource from 'vue-resource'
-
-
-
 
 
 
@@ -28,9 +26,6 @@ Vue.component(TabItem.name, TabItem);
 import {Switch} from 'mint-ui';
 Vue.component(Switch.name, Switch);
 
-
-
-Vue.use(VueRouter);
 
 //导入router.js
 import router from './router/index';

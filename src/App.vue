@@ -4,6 +4,7 @@
     <!--<div>-->
       <!--<mt-header fixed title="X X X X"></mt-header>-->
     <!--</div>-->
+
     <!--主件-->
         <!--渐入-->
     <transition>
@@ -18,16 +19,21 @@
           <span class="mui-icon mui-icon-home"></span>
           <span class="mui-tab-label">首页</span>
         </router-link>
-        <router-link class="mui-tab-item" to="/member">
-          <span class="mui-icon mui-icon-contact"></span>
-          <span class="mui-tab-label">会员</span>
-        </router-link>
         <router-link class="mui-tab-item" to="/shopcar">
-          <span class="mui-icon mui-icon-??">
-            <span class="mui-badge">9</span></span>
+          <span class="mui-icon mui-icon-info-filled"></span>
           <span class="mui-tab-label">购物车</span>
         </router-link>
-        <router-link class="mui-tab-item" to="/search">
+        <router-link class="mui-tab-item" to="/shop">
+          <span class="mui-icon mui-icon-arrowthinup"></span>
+          <span class="mui-tab-label">开始购物</span>
+        </router-link>
+        <router-link class="mui-tab-item" to="/user">
+          <span class="mui-icon mui-icon-contact">
+            <span class="mui-badge">9</span>
+          </span>
+          <span class="mui-tab-label">账户</span>
+        </router-link>
+        <router-link class="mui-tab-item" to="/set">
           <span class="mui-icon mui-icon-gear"></span>
           <span class="mui-tab-label">设置</span>
         </router-link>
@@ -39,7 +45,7 @@
 
 <style>
   body {
-    padding-bottom: 40px;
+    padding-bottom: 45px;
   }
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -62,7 +68,7 @@
   }
   .v-enter-active,
   .v-leave-active{
-    /*transition: all 1s;*/
+    transition: all 0.8s;
   }
 </style>
 

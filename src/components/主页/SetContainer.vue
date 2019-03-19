@@ -49,7 +49,9 @@
       </li>
     </ul>
     <br>
-    <button class="mui-btn mui-btn-primary mui-btn-block">切换账号</button>
+    <router-link to="/set/login">
+      <button class="mui-btn mui-btn-primary mui-btn-block">切换账号</button>
+    </router-link>
     <button class="mui-btn mui-btn-negative mui-btn-block">注销账号</button>
 
 
