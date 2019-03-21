@@ -5,7 +5,7 @@
 大致三个阶段  
 1. 结构  
 2. API数据  
-API+axios（没有选择vue-resource）
+API+axios（没有选择vue-resource）  
 想用node.js自制api接口，以免数据受限制
 
 3. 外观美化
